@@ -6,7 +6,9 @@ function Hero() {
     <div className="bg-emerald-100 py-24">
       <div className="max-auto max-w-7xl px-8 py-8 grid md:grid-cols-2 items-center gap-8">
         <article>
-          <h1 className="text-7xl font-bold tracking-wider ">I am Abdullah</h1>
+          <h1 className="text-7xl font-bold tracking-wider ">
+            I am <span className="text-emerald-600">Abdullah</span>
+          </h1>
           <p className="mt-4 text-3xl text-slate-700">Front-End Developer</p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
             turning ideas into interactive reality
